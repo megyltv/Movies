@@ -1,7 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch", "MoviesSearch\MoviesSearch.csproj", "{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.API", "MoviesSearch\MoviesSearch.API.csproj", "{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Service", "MoviesSearch.Service\MoviesSearch.Service.csproj", "{7A04FDDB-734B-496A-BB35-B555A93BFD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Model", "MoviesSearch.Model\MoviesSearch.Model.csproj", "{A11CBD3C-56A1-4ADC-BC30-843096614B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +17,13 @@ Global
 		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
