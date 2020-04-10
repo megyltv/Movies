@@ -1,11 +1,17 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.API", "MoviesSearch\MoviesSearch.API.csproj", "{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAA3A9C3-6B28-469F-AE33-24EB2780EA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Service", "MoviesSearch.Service\MoviesSearch.Service.csproj", "{7A04FDDB-734B-496A-BB35-B555A93BFD0A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FBDDB78B-D36B-4309-8070-8CE441B4B830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Model", "MoviesSearch.Model\MoviesSearch.Model.csproj", "{A11CBD3C-56A1-4ADC-BC30-843096614B6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Service", "src\MoviesSearch.Service\MoviesSearch.Service.csproj", "{317803F9-4876-4F74-A45C-010F8C857EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Model", "src\MoviesSearch.Model\MoviesSearch.Model.csproj", "{0E3BF9BE-E934-45D0-921D-2F46690071FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Service.Tests", "test\MoviesSearch.Service.Tests\MoviesSearch.Service.Tests.csproj", "{4B800BB8-E39D-4269-B654-1170666D6A92}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoviesSearch.API", "src\MoviesSearch\MoviesSearch.API.csproj", "{3721A748-1B20-4EEC-8026-670E28AD4EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +19,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03C2B97F-3E6F-4E82-8609-D3C17C2856DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A04FDDB-734B-496A-BB35-B555A93BFD0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A11CBD3C-56A1-4ADC-BC30-843096614B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317803F9-4876-4F74-A45C-010F8C857EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317803F9-4876-4F74-A45C-010F8C857EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317803F9-4876-4F74-A45C-010F8C857EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317803F9-4876-4F74-A45C-010F8C857EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3BF9BE-E934-45D0-921D-2F46690071FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3BF9BE-E934-45D0-921D-2F46690071FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3BF9BE-E934-45D0-921D-2F46690071FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3BF9BE-E934-45D0-921D-2F46690071FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B800BB8-E39D-4269-B654-1170666D6A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B800BB8-E39D-4269-B654-1170666D6A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B800BB8-E39D-4269-B654-1170666D6A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B800BB8-E39D-4269-B654-1170666D6A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3721A748-1B20-4EEC-8026-670E28AD4EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3721A748-1B20-4EEC-8026-670E28AD4EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3721A748-1B20-4EEC-8026-670E28AD4EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3721A748-1B20-4EEC-8026-670E28AD4EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{317803F9-4876-4F74-A45C-010F8C857EDB} = {AAA3A9C3-6B28-469F-AE33-24EB2780EA69}
+		{0E3BF9BE-E934-45D0-921D-2F46690071FA} = {AAA3A9C3-6B28-469F-AE33-24EB2780EA69}
+		{4B800BB8-E39D-4269-B654-1170666D6A92} = {FBDDB78B-D36B-4309-8070-8CE441B4B830}
+		{3721A748-1B20-4EEC-8026-670E28AD4EAE} = {AAA3A9C3-6B28-469F-AE33-24EB2780EA69}
 	EndGlobalSection
 EndGlobal
