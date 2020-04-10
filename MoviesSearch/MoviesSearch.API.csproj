@@ -6,12 +6,18 @@
 
 
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'MoviesSearch' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
+    <ApplicationURL>https://localhost:5001;http://localhost:5000</ApplicationURL>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.7.0" />
     <PackageReference Include="LibLog" Version="5.0.8">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />

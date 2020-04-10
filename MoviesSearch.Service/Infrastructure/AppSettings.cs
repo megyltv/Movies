@@ -1,5 +1,4 @@
-﻿using System;
-namespace MoviesSearch.Service.Infrastructure
+﻿namespace MoviesSearch.Service.Infrastructure
 {
     public class AppSettings
     {

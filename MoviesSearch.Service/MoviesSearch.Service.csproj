@@ -10,6 +10,8 @@
     <Folder Include="Gateway\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MoviesSearch\MoviesSearch.API.csproj" />
+    <ProjectReference Include="..\MoviesSearch\MoviesSearch.API.csproj">
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
 </Project>
